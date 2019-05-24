@@ -1,23 +1,15 @@
-import React from "react"
-import Header from "./components/Header"
+import React from "react";
+import Header from "./components/Header";
+import Body from "./components/Body"
+import "./Stylesheet.css"
 
-class App extends React.Component{
-    constructor(){
-        super()
-        this.state = {
-
-        }
-    }
-
-    render(){
-        return (
-        <div>
-            <Header />
-        </div>
-        )
-    }
+function App() {
+  return (
+    <div>
+      <Header />
+      <Body />
+    </div>
+  );
 }
 
-
-
-export default App
+export default App;
