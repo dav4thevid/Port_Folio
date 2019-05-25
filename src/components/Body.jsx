@@ -13,11 +13,11 @@ function Body() {
         I'm Dave Davoucii, <br />
         a UI/UX Developer <br />
         based in Lagos, Nigeria.
-        <br />
+        
         <p>
-          Im <strong>Creative</strong> & <strong>Passionate</strong> <br />
-          about my <strong>Work,</strong> I stand on a <br />
-          sweet spot where design <br />& <strong>Code Intersect.</strong>
+          Im <strong>Creative</strong> & <strong>Passionate </strong> 
+         about my <strong>Work,</strong> I stand on a 
+          sweet spot where design & <strong>Code Intersect.</strong>
         </p>
         <button class = "btn btn-success btn-xs mr-4">PROJECTS</button>
         <button class = "btn btn-info btn-xs">WORKFLOW</button>
