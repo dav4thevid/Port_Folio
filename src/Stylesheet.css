@@ -1,1 +1,25 @@
- 
+.header_style{
+  font-family: "Perpetua";
+  font-size: 80px;
+  line-height: 70px;
+  margin-top:10px;
+  margin-left:40px;
+  font-weight: 700;
+  color: rgb(68, 68, 68);
+}
+
+.paragraph_style{
+  font-family: "Candara";
+  font-size: 20px;
+  line-height: 20px;
+  margin-top:10px;
+  margin-left:40px;
+  font-weight: 700;
+  color: rgb(68, 68, 68);
+}
+
+.paragraph_style span {
+  color: grey;
+}
+
+
