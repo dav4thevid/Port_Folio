@@ -16,11 +16,15 @@ function Body() {
         </p>
       </div>
 
-      <div>
-        <button class="btn btn-success btn-xs mr-4">PROJECTS</button>
-        <button class="btn btn-info btn-xs">WORKFLOW</button>{" "}
+      <div class = "header_button">
+        <button class="btn btn-primary btn-md pl-5 pr-5 mr-5">PROJECTS</button>
+        <button class="btn btn-default btn-md pl-5 pr-5 border-dark">WORKFLOW</button>
       </div>
+      <div class = "header_image">
+      <img src="https://i.ibb.co/cXh6vYp/IMG-20160820-001615.jpg" alt="IMG-20160820-001615"/>
     </div>
+    </div>
+   
   );
 }
 

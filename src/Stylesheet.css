@@ -1,7 +1,7 @@
 .header_style{
   font-family: "Perpetua";
-  font-size: 80px;
-  line-height: 70px;
+  font-size: 75px;
+  line-height: 66px;
   margin-top:10px;
   margin-left:40px;
   font-weight: 700;
@@ -20,6 +20,17 @@
 
 .paragraph_style span {
   color: grey;
+}
+
+.header_button{
+  margin-top:10px;
+  margin-left:40px;
+}
+
+@media (min-width: 400px){
+  .header_image{
+    float:20px;
+  }
 }
 
 
