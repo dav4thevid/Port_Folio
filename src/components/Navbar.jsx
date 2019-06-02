@@ -5,7 +5,7 @@ function Navbar  () {
   return (
   <header>
    <nav class="navbar navbar-expand-lg navbar-light bg-light pl-4">
-  <a class="navbar-brand" href="#">Davoucii</a>
+  <a class="pl-4 navbar-brand" href="#">Davoucii</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
