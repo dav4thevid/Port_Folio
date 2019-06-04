@@ -3,7 +3,7 @@ import React from "react";
 
 function Body() {
   return (
-    <div class="content container grid">
+    <div class="content container">
       <div className="header_margin">
         <img src="https://i.ibb.co/6w24m3f/2.jpg" alt="2" border="0" />
       </div>
