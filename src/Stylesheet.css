@@ -1,17 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Saira+Extra+Condensed&display=swap');
+
 .header_style {
-  font-family: "Perpetua";
-  font-size: 75px;
+  font-family: 'Anton', sans-serif;
+  font-size: 55px;
   line-height: 66px;
   margin-top: 10px;
   margin-left: 40px;
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(68, 68, 68);
 }
 
+.navbar-brand{
+  margin-left: 10%;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'Lobster', cursive
+}
+
+
 .paragraph_style {
-  font-family: "Candara";
-  font-size: 20px;
-  line-height: 20px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
   margin-top: 10px;
   margin-left: 40px;
   font-weight: 700;
@@ -22,14 +33,13 @@
   color: grey;
 }
 
-
 .content {
   position: relative;
 }
 .content:after {
   content: "";
-  background: url("https://i.ibb.co/cXh6vYp/IMG-20160820-001615.jpg") no-repeat
-  center center;
+  background: url("https://i.ibb.co/6w24m3f/2.jpg") no-repeat
+    center center;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -41,26 +51,30 @@
 
 .btn {
   margin-left: 40px;
-  
 }
 
-@media (max-width:500px){
+@media (max-width: 500px) {
   button {
-    padding:2px 4px;
-    font-size:2%;
+    padding: 2px 4px;
+    font-size: 2%;
     line-height: 1;
   }
-}
-
-@media (max-width: 700px){
-  img {
-    display:none;
-    
+  .navbar-brand{
+    margin-left: 8%;
   }
 }
 
-@media screen and (max-width: 1000px) and (min-width: 700px){
-  img{
+@media (max-width: 700px) {
+  img {
+    display: none;
+  }
+  .navbar-brand{
+    margin-left: 14%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -68,52 +82,59 @@
     border-radius: 40%;
     margin-top: 20px;
   }
-  
+
   .content:after {
     background-image: none !important;
   }
 
   .btn {
     margin-left: 37px;
-    
-    
   }
-  
-  
+  .navbar-brand{
+    margin-left: 6%;
+  }
+ 
 }
 
-
-
-
 @media only screen and (min-width: 1000px) {
-
-
   .header_style {
-    font-size: 60px;
+    font-size: 50px;
     background-image: none !important;
-    background-color: #fefefe;
-    margin-top: 20px;
+    background-color: white;
+    line-height: 75px;
+    margin-top: 50px;
     margin-left: 10px;
   }
 
+  .header_margin {
+    margin-top: 80px;
+  }
+
   img {
-    position:relative;
+    position: block;
     float: right;
-    border-radius: 40%;
+    border-radius: 10%;
+    width: 28%;
+    opacity: 0.7;
   }
 
   .content:after {
     background-image: none !important;
   }
 
-  .paragraph_style{
+  .paragraph_style {
     margin-left: 9px;
   }
 
- 
   .btn {
     margin-left: 12px;
-    
   }
-  
+
+  .navbar-brand{
+    margin-left: 9%;
+  }
 }
+
+
+
+
