@@ -15,15 +15,17 @@ function Workflow() {
       <br />
       <br/>
       <br/>
+       
       
-      <h6 >
+      
+      <h5>
         Every day, I refine and improve my workflow.
-        <h6>
-          I’m constantly mixing <span>different methodologies</span>, in order to get the
-          most out of each one. Lean, Agile, Scrum, GTD…
-        </h6>
-        <h6>They’re not dogma, just a <span>starting point.</span></h6>
-      </h6>
+        </h5>
+        <h5>I’m constantly mixing <span>different methodologies</span>, in order to get the
+          most out of each one. Lean, Agile, Scrum, GTD…</h5>   
+      
+        <h5>They’re not dogma, just a <span>starting point.</span></h5>
+      
       
       
     </div>
