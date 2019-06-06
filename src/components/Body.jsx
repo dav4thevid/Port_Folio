@@ -1,11 +1,15 @@
 import React from "react";
 
-
 function Body() {
   return (
     <div class="content container">
       <div className="header_margin">
-        <img src="https://i.ibb.co/6w24m3f/2.jpg" alt="2" border="0" />
+        <img
+          class="background-image"
+          src="https://i.ibb.co/6w24m3f/2.jpg"
+          alt="2"
+          border="0"
+        />
       </div>
       <div>
         <h1 className="header_style">
@@ -18,23 +22,15 @@ function Body() {
       </div>
 
       <p class="paragraph_style">
-        Im{" "}
-        <span>
-          Creative & Passionate about my Work,{" "}
-        </span>{" "}
-        I stand on a{" "}
+        Im <span>Creative & Passionate about my Work, </span> I stand on a{" "}
         <p>
           sweet spot where
-          <span>
-            {" "}
-            Design & Code Intersect.{" "}
-          </span>
+          <span> Design & Code Intersect. </span>
         </p>
       </p>
-      <div>
-        <button class="btn btn-primary btn-sm p-4 ">PROJECTS</button>
-        <button class="btn btn-default btn-sm border-dark p-4">WORKFLOW</button>
-      </div>
+
+      <div class = "btn btn-primary  btn-sm-4  p-4">Projects</div>
+      <div class = "btn btn-default btn-sm-4 border-dark p-4">Workflow</div>
     </div>
   );
 }

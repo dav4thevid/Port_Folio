@@ -19,6 +19,8 @@ nav {
   z-index: 100;
 }
 
+
+
 .header_style {
   font-family: "Anton", sans-serif;
   font-size: 55px;
@@ -67,21 +69,38 @@ nav {
 
 .btn {
   margin-left: 40px;
+  font-family: "Lobster", cursive;
+  
+}
+
+.btn-white{
+  color: #000;
+  background-color: #fff!important;
+ width:15em;
+ margin-top: 20px;
+ 
+}
+
+
+div .thumbnail img {
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-bottom: 50%;
+  opacity: 0.7;
 }
 
 @media (max-width: 500px) {
-  button {
-    padding: 2px 4px;
-    font-size: 2%;
-    line-height: 1;
-  }
+  
   .navbar-brand {
     margin-left: 8%;
   }
 }
 
 @media (max-width: 700px) {
-  img {
+  .background-image {
     display: none;
   }
   .navbar-brand {
@@ -121,11 +140,12 @@ nav {
     margin-left: 10px;
   }
 
+ 
   .header_margin {
     margin-top: 80px;
   }
 
-  img {
+  .background-image {
     position: block;
     float: right;
     border-radius: 10%;
@@ -148,6 +168,8 @@ nav {
   .navbar-brand {
     margin-left: 9%;
   }
+
+  
 }
 
 .workflow {
@@ -165,15 +187,23 @@ nav {
   margin-bottom: 20px;
 }
 
-.workflow p {
+.workflow_p {
   text-align: center;
   color: rgb(94, 84, 84);
   font-family: "Lobster", cursive;
   font-size: 17px;
-  line-height: 1px;
+  line-height: 15px;
 }
 
-.workflow p span {
+.image_p{
+  text-align: center;
+  color: rgb(94, 84, 84);
+  font-family: "Lobster", cursive;
+  font-size: 17px;
+  line-height: 3px;
+}
+
+ span {
   color: #fff;
 }
 
@@ -187,6 +217,8 @@ nav {
 
 }
 
-h5 span {
-  color: #fff;
+#design{
+  font-size: 0.8em;
 }
+
+
