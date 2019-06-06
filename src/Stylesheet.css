@@ -109,7 +109,7 @@ div .thumbnail img {
 }
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
-  img {
+  .background-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -219,6 +219,21 @@ div .thumbnail img {
 
 #design{
   font-size: 0.8em;
+}
+
+.port-folio{
+  background-color:#fff;
+  margin-top: 30px;
+  margin-bottom:100px;
+}
+
+.yelpcamp {
+ 
+ display: block;
+ margin-left:auto;
+ margin-right:auto;
+ width: 50em;
+ 
 }
 
 

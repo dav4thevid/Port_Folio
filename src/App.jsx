@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
 import Workflow from "./components/Workflow";
+import PortFolio from "./components/PortFolio"
 
 import "./Stylesheet.css";
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Body />
       <Workflow />
+      <PortFolio />
     </div>
   );
 }
