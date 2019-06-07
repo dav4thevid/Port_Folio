@@ -27,6 +27,7 @@ function Workflow() {
               and solve
             </p>
             <img
+              class="effect3"
               src="https://i.ibb.co/dms5Cdz/Think.jpg"
               alt="Think"
               border="0"
@@ -41,6 +42,7 @@ function Workflow() {
               and design
             </p>
             <img
+              class="effect3"
               src="https://i.ibb.co/q1nDw3P/collaboration-clipart-jigsaw-3.jpg"
               alt="collaboration-clipart-jigsaw-3"
               border="0"
@@ -54,6 +56,7 @@ function Workflow() {
               and test
             </p>
             <img
+              class="effect3"
               src="https://i.ibb.co/sbVkCsM/Launch.jpg"
               alt="Launch"
               border="0"
@@ -67,6 +70,7 @@ function Workflow() {
               and learn
             </p>
             <img
+              class="effect3"
               src="https://i.ibb.co/bKqjq44/Measure.jpg"
               alt="Measure"
               border="0"

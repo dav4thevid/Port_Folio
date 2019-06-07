@@ -39,14 +39,19 @@ nav {
   border-radius: 20%;
   display: block;
   float:right;
-  transition-delay: inherit;
   
 }
 .wrapper:hover {
   background: url("https://i.ibb.co/6w24m3f/2.jpg") no-repeat;
-  
   background-size:contain;
 
+}
+.effect3{
+  transition: 1s;
+}
+
+.effect3:hover{
+  width:50%;
 }
 
 .navbar-brand {
@@ -119,9 +124,7 @@ div .thumbnail img {
     display: none;
   }
 
-  .imagee-hover{
-    display:none;
-  }
+  
   .navbar-brand {
     margin-left: 14%;
   }
