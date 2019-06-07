@@ -3,17 +3,69 @@ import React from "react";
 function PortFolio() {
   return (
     <div>
-      <div class="container-fluid port-folio">
-      <div class = "container">
+      <div class="container port-folio ">
         <div class="row">
-          <div class="yelpcamp">
-            <img class = "col-12 col-sm-12 col-md-12 col-lg-12"
-              src="https://i.ibb.co/RpTQbnC/Capture.png"
-              alt="Capture"
-              border="0"
-              
-            />
+          <div class="col-12">
+            <div class="col text-center effect">
+              <h1 id="portfolio-h1">YelpCamp </h1>
+              <p id="portfolio-p">
+                A Yelp Camp App, where users can add campgrounds, comments on
+                campgrounds and check prizing.
+              </p>
             </div>
+            <a href="https://www.w3schools.com/" target="_blank">
+              <img
+                class="mx-auto d-block col-sm-12 col-md-12 col-lg-12 effect"
+                src="https://i.ibb.co/RpTQbnC/Capture.png"
+                alt="Capture"
+                border="0"
+              />
+            </a>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-12 col-md-6  ">
+            <div class="col text-center effect">
+              <h1 id="portfolio-h1">RGB Game </h1>
+              <p id="portfolio-p">
+                An RGB Game which helps players to memorize RGB colors. You
+                think you know RGB Colors?
+                <span id="portfolio-span"> Play this Game.</span>
+              </p>
+            </div>
+            <a href="https://www.w3schools.com/" target="_blank">
+              <img
+                class="mx-auto d-block col-sm-12 col-md-12 col-lg-12 effect"
+                src="https://i.ibb.co/0hxhg4y/RGB.png"
+                alt="RGB"
+                border="0"
+              />
+            </a>
+          </div>
+
+          <br />
+
+          <div class="col-sm-12 col-md-6 ">
+            <div class="col text-center effect">
+              <h1 id="portfolio-h1">Patatap-Clone </h1>
+              <p id="portfolio-p">
+                Patatap is a portable animation and sound kit. With the touch of
+                a finger create melodies charged with moving shapes.
+                <span id="portfolio-span">
+                  {" "}
+                  Warning: contains flashing images.
+                </span>
+              </p>
+            </div>
+            <a href="https://www.w3schools.com/" target="_blank">
+              <img
+                class="mx-auto d-block col-sm-12 col-md-12 col-lg-12 effect"
+                src="https://i.ibb.co/8XNd1Qb/p8lPXhe.png"
+                alt="p8lPXhe"
+                border="0"
+              />
+            </a>
           </div>
         </div>
       </div>

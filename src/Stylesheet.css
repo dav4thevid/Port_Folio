@@ -31,6 +31,24 @@ nav {
   color: rgb(68, 68, 68);
 }
 
+.wrapper {
+  width: 300px;
+  height: 400px;
+  background: url("https://i.ibb.co/brpZdMc/ff.jpg") no-repeat;
+  background-size:contain;
+  border-radius: 20%;
+  display: block;
+  float:right;
+  transition-delay: inherit;
+  
+}
+.wrapper:hover {
+  background: url("https://i.ibb.co/6w24m3f/2.jpg") no-repeat;
+  
+  background-size:contain;
+
+}
+
 .navbar-brand {
   margin-left: 10%;
   font-family: "Lobster", cursive;
@@ -70,17 +88,14 @@ nav {
 .btn {
   margin-left: 40px;
   font-family: "Lobster", cursive;
-  
 }
 
-.btn-white{
+.btn-white {
   color: #000;
-  background-color: #fff!important;
- width:15em;
- margin-top: 20px;
- 
+  background-color: #fff !important;
+  width: 15em;
+  margin-top: 20px;
 }
-
 
 div .thumbnail img {
   border-radius: 20%;
@@ -93,15 +108,19 @@ div .thumbnail img {
 }
 
 @media (max-width: 500px) {
-  
+
   .navbar-brand {
     margin-left: 8%;
   }
 }
 
-@media (max-width: 700px) {
-  .background-image {
+@media (max-width: 760px) {
+  .wrapper {
     display: none;
+  }
+
+  .imagee-hover{
+    display:none;
   }
   .navbar-brand {
     margin-left: 14%;
@@ -109,13 +128,28 @@ div .thumbnail img {
 }
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
-  .background-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 40%;
-    margin-top: 20px;
+  
+
+  .effect1{
+ 
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 0.5s;
+  }
+  
+  .effect1:hover{
+    width: 37%;
+    height: auto;
+  }
+
+  .effect2{
+ 
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 0.5s;
+  }
+  
+  .effect2:hover{
+    width: 10%;
+    height: auto;
   }
 
   .content:after {
@@ -140,17 +174,21 @@ div .thumbnail img {
     margin-left: 10px;
   }
 
- 
   .header_margin {
     margin-top: 80px;
   }
 
-  .background-image {
-    position: block;
-    float: right;
-    border-radius: 10%;
-    width: 28%;
-    opacity: 0.7;
+ 
+
+  .effect1{
+ 
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 0.5s;
+  }
+  
+  .effect1:hover{
+    width: 35%;
+    height: auto;
   }
 
   .content:after {
@@ -168,8 +206,6 @@ div .thumbnail img {
   .navbar-brand {
     margin-left: 9%;
   }
-
-  
 }
 
 .workflow {
@@ -195,7 +231,7 @@ div .thumbnail img {
   line-height: 15px;
 }
 
-.image_p{
+.image_p {
   text-align: center;
   color: rgb(94, 84, 84);
   font-family: "Lobster", cursive;
@@ -203,37 +239,53 @@ div .thumbnail img {
   line-height: 3px;
 }
 
- span {
+span {
   color: #fff;
 }
 
 .workflow h5 {
   text-align: center;
   font-family: "Righteous", cursive;
-  font-size:1em;
+  font-size: 1em;
   font-weight: 700;
   color: rgb(94, 84, 84);
   line-height: 16px;
-
 }
 
-#design{
+#design {
   font-size: 0.8em;
 }
 
-.port-folio{
-  background-color:#fff;
+.port-folio {
+  background-color: #fff;
   margin-top: 30px;
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
 
-.yelpcamp {
- 
- display: block;
- margin-left:auto;
- margin-right:auto;
- width: 50em;
- 
+#portfolio-h1 {
+  font-family: "Righteous", cursive;
 }
 
+#portfolio-p {
+  font-family: "Lobster", cursive;
+}
 
+.portfolio-images-bg {
+  background-color: rgb(197, 195, 195);
+}
+
+#portfolio-span {
+  color: rgb(161, 6, 6);
+  font-family: "Lobster", cursive;
+}
+
+.effect{
+ 
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 0.5s;
+}
+
+.effect:hover{
+  width: 96%;
+  height: auto;
+}
