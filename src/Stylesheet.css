@@ -18,40 +18,43 @@ nav {
   width: 100%;
   z-index: 100;
 }
-
-
+.header_margin {
+  margin-top: 50px;
+  padding:20px;
+}
 
 .header_style {
-  font-family: "Anton", sans-serif;
+  font-family: "Lobster", cursive;
   font-size: 55px;
   line-height: 66px;
-  margin-top: 30px;
   margin-left: 40px;
   font-weight: 500;
   color: rgb(68, 68, 68);
+ 
 }
 
 .wrapper {
   width: 300px;
   height: 400px;
   background: url("https://i.ibb.co/brpZdMc/ff.jpg") no-repeat;
-  background-size:contain;
+  background-size: contain;
   border-radius: 20%;
   display: block;
-  float:right;
-  
+  float: right;
+  box-shadow: 10px 10px 12px 0px;
+  -webkit-box-shadow: 10px 10px 12px 0px;
+  -moz-box-shadow: 10px 10px 12px 0px;
 }
 .wrapper:hover {
   background: url("https://i.ibb.co/6w24m3f/2.jpg") no-repeat;
-  background-size:contain;
-
+  background-size: contain;
 }
-.effect3{
+.effect3 {
   transition: 1s;
 }
 
-.effect3:hover{
-  width:50%;
+.effect3:hover {
+  width: 50%;
 }
 
 .navbar-brand {
@@ -92,14 +95,16 @@ nav {
 
 .btn {
   margin-left: 40px;
-  font-family: "Lobster", cursive;
+  font-family: "Righteous", cursive;
+  
 }
 
 .btn-white {
-  color: #000;
+  color: relative !important;
   background-color: #fff !important;
-  width: 15em;
+  width: 20%;
   margin-top: 20px;
+  
 }
 
 div .thumbnail img {
@@ -113,44 +118,38 @@ div .thumbnail img {
 }
 
 @media (max-width: 500px) {
-
   .navbar-brand {
     margin-left: 8%;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 770px) {
   .wrapper {
     display: none;
   }
 
-  
   .navbar-brand {
     margin-left: 14%;
   }
 }
 
-@media screen and (max-width: 1000px) and (min-width: 700px) {
-  
-
-  .effect1{
- 
+@media screen and (max-width: 1000px) and (min-width: 770px) {
+  .effect1 {
     -webkit-transition: width 2s; /* Safari */
     transition: width 0.5s;
   }
-  
-  .effect1:hover{
+
+  .effect1:hover {
     width: 37%;
     height: auto;
   }
 
-  .effect2{
- 
+  .effect2 {
     -webkit-transition: width 2s; /* Safari */
     transition: width 0.5s;
   }
-  
-  .effect2:hover{
+
+  .effect2:hover {
     width: 10%;
     height: auto;
   }
@@ -177,19 +176,13 @@ div .thumbnail img {
     margin-left: 10px;
   }
 
-  .header_margin {
-    margin-top: 80px;
-  }
 
- 
-
-  .effect1{
- 
+  .effect1 {
     -webkit-transition: width 2s; /* Safari */
     transition: width 0.5s;
   }
-  
-  .effect1:hover{
+
+  .effect1:hover {
     width: 35%;
     height: auto;
   }
@@ -282,13 +275,68 @@ span {
   font-family: "Lobster", cursive;
 }
 
-.effect{
- 
+.effect {
   -webkit-transition: width 2s; /* Safari */
   transition: width 0.5s;
 }
 
-.effect:hover{
+.effect:hover {
   width: 96%;
   height: auto;
 }
+
+.contact-me {
+  background-color: rgb(228, 224, 224);
+  height: 100%;
+  padding-top: 70px;
+  border-radius: 10px;
+}
+
+.contact-me h1 {
+  font-family: "Righteous", cursive;
+}
+
+.contact-me p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  color: rgb(71, 71, 71);
+}
+
+#email-me {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a img {
+  border-radius: 35px;
+}
+
+.about-me {
+  background-color: rgb(97, 155, 179);
+  width: 100%;
+  padding-top:200px;
+  padding-bottom: 200px;
+}
+
+.about-me-heading{
+  width:43%;
+  margin-left:auto;
+  margin-right:auto;
+  color:white;
+  font-family: "Lobster", cursive;
+  font-size:3em;
+  text-align:justify;
+}
+
+.about-me-p{
+  color:rgb(230, 230, 230);
+  width:47%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:1.3em;
+  font-family:"Righteous", cursive;
+  text-align:justify;
+}
+
+
+
+

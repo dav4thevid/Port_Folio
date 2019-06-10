@@ -91,8 +91,8 @@ function Workflow() {
         <div class="row">
           <div class="col text-center">
             <a
-              class="btn btn-white btn-sm-4 text-center"
-              href="dav4thevid@gmail.com"
+              class="btn btn-white btn-sm-4"
+              href="mailto:dav4thevid@gmail.com"
             >
               Let's work together
             </a>

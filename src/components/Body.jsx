@@ -4,7 +4,7 @@ function Body() {
   return (
     <div class="content container">
       <div className="header_margin">
-        <a href="https://www.github.com/dav4thevid" target = "_black">
+        <a href="https://www.github.com/dav4thevid" target = "_blank">
           {" "}
           <div class="wrapper" title="Davoucii" />
         </a>
@@ -12,10 +12,8 @@ function Body() {
       <div>
         <h1 className="header_style">
           I'm Dave Davoucii, <br />
-          a UI/UX Developer <br />
-          based in Lagos,
-          <br />
-          Nigeria.
+          a Front-End/Back-End(Node.js) <br />
+          Developer.  
         </h1>
       </div>
 
@@ -30,6 +28,9 @@ function Body() {
       <div class="btn btn-primary  btn-sm-4  p-4">Projects</div>
       <div class="btn btn-default btn-sm-4 border-dark p-4">Workflow</div>
     </div>
+
+   
+
   );
 }
 

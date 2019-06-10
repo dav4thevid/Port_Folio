@@ -34,7 +34,7 @@ function PortFolio() {
                 <span id="portfolio-span"> Play this Game.</span>
               </p>
             </div>
-            <a href="https://www.w3schools.com/" target="_blank">
+            <a href="https://codepen.io/dav4thevid/full/YdqBNx" target="_blank">
               <img
                 class="mx-auto d-block col-sm-12 col-md-12 col-lg-12 effect"
                 src="https://i.ibb.co/0hxhg4y/RGB.png"
@@ -66,6 +66,33 @@ function PortFolio() {
                 border="0"
               />
             </a>
+          </div>
+        </div>
+
+        <br />
+        <div class="row">
+          <div class="col-sm-12 col-md-6  ">
+            <div class="col text-center effect">
+              <h1 id="portfolio-h1">RestFull Blog App </h1>
+              <p id="portfolio-p">
+                A CRUD Blog, Where users can Add,Edit and Delete Blog Posts
+              </p>
+            </div>
+            <a href="https://pacific-shelf-39954.herokuapp.com/blogs" target="_blank">
+              <img
+                class="mx-auto d-block col-sm-12 col-md-12 col-lg-12 effect"
+                src="https://i.ibb.co/2v55XBN/Capture.png"
+                alt="Blog App"
+                border="0"
+              />
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+            <div class="col contact-me well">
+              <h1 class= "pl-3">Do you like what you are seeing? Lets have a chat!</h1>
+            <p class= "pl-3">I’m always looking to expand my network, get engaged in new challenges, or just have a coffee!</p>
+            <a href = "mailto:dav4thevid@gmail.com"id = "email-me" class = "btn btn-success">Send me an E-mail</a>
+            </div>
           </div>
         </div>
       </div>
