@@ -313,8 +313,8 @@ a img {
 .about-me {
   background-color: rgb(97, 155, 179);
   width: 100%;
-  padding-top:200px;
-  padding-bottom: 200px;
+  padding-top:100px;
+  padding-bottom: 100px;
 }
 
 .about-me-heading{
@@ -337,6 +337,27 @@ a img {
   text-align:justify;
 }
 
+.footer {
+  padding-top:50px;
+  padding-bottom: 50px;
+  background-color: rgb(37, 37, 37);
+  
+ 
 
+  
+}
 
+.footer-header{
+  width:70%;
+
+  color:rgb(95, 95, 95);;
+  font-size:0.8em
+}
+
+.footer-p{
+  width:70%;
+  color:rgb(95, 95, 95);
+ 
+  font-size:0.8em
+}
 
