@@ -340,24 +340,28 @@ a img {
 .footer {
   padding-top:50px;
   padding-bottom: 50px;
-  background-color: rgb(37, 37, 37);
-  
- 
-
-  
+  background-color: rgb(63, 63, 63);
+  text-align:center;
+  width: 100%;
 }
 
 .footer-header{
-  width:70%;
+  
+  color:rgb(143, 143, 143);;
+  font-size:0.9em;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: "Lobster", cursive;
+ 
+  text-align:center;
+ 
 
-  color:rgb(95, 95, 95);;
-  font-size:0.8em
 }
 
 .footer-p{
-  width:70%;
+  
   color:rgb(95, 95, 95);
- 
-  font-size:0.8em
+  font-size:0.8em;
+  text-align:center;
 }
 
