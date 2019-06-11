@@ -19,7 +19,7 @@ function Navbar  () {
         <a class="nav-link" href="#">Port Folio</a>
       </li>
       <li class="btn nav-item pr-5">
-        <a class="nav-link" href="#">About Me</a>
+        <a class="nav-link visible-sm-block" href="#">About Me</a>
       </li>
       <li class="btn btn-primary ">
         <a class="nav-link " href="#">Contact Me</a>

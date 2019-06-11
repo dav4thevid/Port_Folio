@@ -365,3 +365,14 @@ a img {
   text-align:center;
 }
 
+.fa-lg{
+  color:white;
+  margin-right:20px;
+}
+
+.copyright{
+  color:white;
+  font-family: "Righteous", cursive;
+  margin-right:13px;
+}
+
