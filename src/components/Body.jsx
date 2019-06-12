@@ -2,7 +2,7 @@ import React from "react";
 
 function Body() {
   return (
-    <div class="content container">
+    <div class="content container" id = "home">
       <div className="header_margin">
         <a href="https://www.github.com/dav4thevid" target = "_blank">
           {" "}

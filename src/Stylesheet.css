@@ -19,8 +19,8 @@ nav {
   z-index: 100;
 }
 .header_margin {
-  margin-top: 50px;
-  padding:20px;
+ 
+  
 }
 
 .header_style {
@@ -78,8 +78,9 @@ nav {
 
 .content {
   position: relative;
-  margin-top: 70px;
-  margin-bottom: 10%;
+  
+  margin-top: 120px;
+  margin-bottom: 15%;
 }
 .content:after {
   content: "";
@@ -318,7 +319,7 @@ a img {
 }
 
 .about-me-heading{
-  width:43%;
+  width:50%;
   margin-left:auto;
   margin-right:auto;
   color:white;
@@ -329,7 +330,7 @@ a img {
 
 .about-me-p{
   color:rgb(230, 230, 230);
-  width:47%;
+  width:50%;
   margin-left:auto;
   margin-right:auto;
   font-size:1.3em;

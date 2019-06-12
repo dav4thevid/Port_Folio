@@ -2,7 +2,7 @@ import React from "react";
 
 function Workflow() {
   return (
-    <div className="container-fluid workflow">
+    <div className="container-fluid workflow" id = "workflow">
       <header>Out of clutter, find simplicity</header>
       <p class="workflow_p">
         Im passionate about <span>lean </span>methodology, <span>sprints</span>{" "}

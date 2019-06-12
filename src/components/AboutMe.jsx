@@ -2,7 +2,7 @@ import React from "react"
 
 function AboutMe(){
     return (
-        <div class = "container-fluid about-me">
+        <div class = "container-fluid about-me" id = "aboutme">
            
             <h1 class= "about-me-heading">The only thing more dangerous than ignorance is arrogance.<span> - Albert Einstern.</span></h1>
             <p class = "about-me-p">I am a <span>web developer</span> from Lagos Nigeria, I enjoy building everything from <span>small business website</span> to <span>rich intergrated web app</span>.As someone who enjoys finding solutions to difficult problems, <span>software development</span> was an obvious path.Im also a <span>Gamer </span>|  <span>Football Fanatic</span> |  <span>Rap Music Addict.</span> if you are a <span>business owner</span> seeking a <span>web presence</span> or an <span>employer</span> looking to hire. <span>Holla!!!</span></p>
