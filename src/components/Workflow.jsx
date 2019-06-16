@@ -94,7 +94,7 @@ function Workflow() {
               class="btn btn-white btn-sm-4"
               href="mailto:dav4thevid@gmail.com"
             >
-              Let's work together
+              Contact Me
             </a>
           </div>
         </div>

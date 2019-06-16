@@ -14,7 +14,7 @@ function AboutMe(){
               class="btn btn-white btn-md-4"
               href="mailto:dav4thevid@gmail.com"
             >
-              Let's work together
+              Contact Me
             </a>
           </div>
         </div>
