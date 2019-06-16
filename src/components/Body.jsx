@@ -2,9 +2,9 @@ import React from "react";
 
 function Body() {
   return (
-    <div class="content container" id = "home">
+    <div class="content container" id="home">
       <div className="header_margin">
-        <a href="https://www.github.com/dav4thevid" target = "_blank">
+        <a href="https://www.github.com/dav4thevid" target="_blank">
           {" "}
           <div class="wrapper" title="Davoucii" />
         </a>
@@ -13,7 +13,7 @@ function Body() {
         <h1 className="header_style">
           I'm Dave Davoucii, <br />
           a Front-End/Back-End(Node.js) <br />
-          Developer.  
+          Developer.
         </h1>
       </div>
 
@@ -24,13 +24,21 @@ function Body() {
           <span> Design & Code Intersect. </span>
         </p>
       </p>
-
-      <a href = "#portfolio" class="btn btn-primary   m-5 p-4">Projects</a>
-      <a href = "#workflow" class="btn btn-default border-dark p-4">Workflow</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-3 ml-4">
+            <a href="#portfolio" class="btn btn-primary p-4">
+              Projects
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="#workflow" class="btn btn-default border-dark p-4">
+              Workflow
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-
-   
-
   );
 }
 

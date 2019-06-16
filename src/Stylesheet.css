@@ -192,6 +192,10 @@ div .thumbnail img {
     margin-left: 10px;
   }
 
+  .btn-primary{
+    margin-left: -30px;
+  }
+
  
   .about-me-heading{
     width: 50%;
