@@ -26,12 +26,12 @@ function Body() {
       </p>
       <div class="container">
         <div class="row">
-          <div class="col-3 ml-4">
+          <div class="col-5 ml-4">
             <a href="#portfolio" class="btn btn-primary p-4">
               Projects
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-5">
             <a href="#workflow" class="btn btn-default border-dark p-4">
               Workflow
             </a>
