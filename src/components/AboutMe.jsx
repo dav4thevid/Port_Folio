@@ -11,7 +11,7 @@ function AboutMe(){
 
             <div class="col text-center">
             <a
-              class="btn btn-white btn-sm-4"
+              class="btn btn-white btn-md-4"
               href="mailto:dav4thevid@gmail.com"
             >
               Let's work together

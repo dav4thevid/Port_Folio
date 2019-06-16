@@ -91,7 +91,7 @@ function PortFolio() {
             <div class="col contact-me well">
               <h1 class= "pl-3">Do you like what you are seeing? Lets have a chat!</h1>
             <p class= "pl-3">I’m always looking to expand my network, get engaged in new challenges, or just have a coffee!</p>
-            <a href = "mailto:dav4thevid@gmail.com"id = "email-me" class = "btn btn-success">Send me an E-mail</a>
+            <a href = "mailto:dav4thevid@gmail.com"id = "email-me" class = " btn btn-success port-folio-button">Send me an E-mail</a>
             </div>
           </div>
         </div>
