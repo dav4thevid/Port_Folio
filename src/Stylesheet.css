@@ -157,6 +157,15 @@ div .thumbnail img {
     width: 70%;
   }
 
+  .btn-primary{
+    margin-left: 5%;
+  }
+
+  .btn-default{
+    margin-left: -150px;
+  }
+
+
   .about-me-p{
     width:70%;
   }
@@ -185,9 +194,6 @@ div .thumbnail img {
     margin-left: 6%;
   }
 
-  .btn-default{
-    margin-left: -150px;
-  }
   
 }
 
