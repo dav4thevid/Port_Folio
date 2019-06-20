@@ -18,7 +18,7 @@ function Body() {
       </div>
 
       <p class="paragraph_style">
-        Im <span>Creative & Passionate about my Work, </span> I stand on a
+        I'm <span>Creative & Passionate about my Work, </span> I stand on a
         <p>
           sweet spot where
           <span> Design & Code Intersect. </span>
