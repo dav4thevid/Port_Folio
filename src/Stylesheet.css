@@ -259,7 +259,7 @@ div .thumbnail img {
 
 .workflow_p {
   text-align: center;
-  color: rgb(94, 84, 84);
+  color: rgb(175, 172, 172);
   font-family: "Righteous", cursive;
   font-size: 17px;
   line-height: 15px;
@@ -267,7 +267,7 @@ div .thumbnail img {
 
 .image_p {
   text-align: center;
-  color: rgb(94, 84, 84);
+  color: rgb(175, 172, 172);
   font-family: "Righteous", cursive;
   font-size: 17px;
   line-height: 3px;
@@ -279,7 +279,7 @@ span {
 
 .workflow h5 {
   text-align: center;
-  color: rgb(94, 84, 84);
+  color: rgb(175, 172, 172);
   font-family: "Righteous", cursive;
   font-size: 17px;
   line-height: 16px;
@@ -304,7 +304,7 @@ span {
 }
 
 .portfolio-images-bg {
-  background-color: rgb(197, 195, 195);
+  background-color: rgb(211, 207, 207);
 }
 
 #portfolio-span {
