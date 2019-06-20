@@ -16,7 +16,7 @@ function Navbar() {
             </li>
             <li class="btn nav-item pr-5">
               <a class="nav-link" href="#portfolio">
-                Port Folio
+                Portfolio
               </a>
             </li>
             <li class="btn nav-item pr-5">
