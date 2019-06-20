@@ -5,7 +5,7 @@ function Workflow() {
     <div className="container-fluid workflow" id = "workflow">
       <header>Out of clutter, find simplicity</header>
       <p class="workflow_p">
-        Im passionate about <span>lean </span>methodology, <span>sprints</span>{" "}
+        I'm passionate about <span>lean </span>methodology, <span>sprints</span>{" "}
         and <span>user validation</span>
       </p>
       <p class="workflow_p">

@@ -11,12 +11,15 @@ nav {
   right: 0;
   height: 50px;
   padding-top: 15px;
-  box-shadow: 0px 0px 8px 0px;
-  -webkit-box-shadow: 0px 0px 8px 0px;
-  -moz-box-shadow: 0px 0px 8px 0px;
-  background-color: rgb(139, 58, 58);
+  
   width: 100%;
   z-index: 100;
+}
+
+#contact-me-button{
+  color:#fff;
+  border-radius: 0%;
+  margin-right: -16px;
 }
 
 
@@ -38,9 +41,9 @@ nav {
   border-radius: 20%;
   display: block;
   float: right;
-  box-shadow: 10px 10px 12px 0px;
-  -webkit-box-shadow: 10px 10px 12px 0px;
-  -moz-box-shadow: 10px 10px 12px 0px;
+  box-shadow: 5px 0px 12px 0px;
+  -webkit-box-shadow: 5px 12px 0px 0px;
+  -moz-box-shadow: 0px 5px 12px 0px;
 }
 .wrapper:hover {
   background: url("https://i.ibb.co/6w24m3f/2.jpg") no-repeat;
@@ -257,7 +260,7 @@ div .thumbnail img {
 .workflow_p {
   text-align: center;
   color: rgb(94, 84, 84);
-  font-family: "Lobster", cursive;
+  font-family: "Righteous", cursive;
   font-size: 17px;
   line-height: 15px;
 }
@@ -265,7 +268,7 @@ div .thumbnail img {
 .image_p {
   text-align: center;
   color: rgb(94, 84, 84);
-  font-family: "Lobster", cursive;
+  font-family: "Righteous", cursive;
   font-size: 17px;
   line-height: 3px;
 }
@@ -276,10 +279,9 @@ span {
 
 .workflow h5 {
   text-align: center;
-  font-family: "Righteous", cursive;
-  font-size: 1em;
-  font-weight: 700;
   color: rgb(94, 84, 84);
+  font-family: "Righteous", cursive;
+  font-size: 17px;
   line-height: 16px;
 }
 

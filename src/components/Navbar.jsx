@@ -24,9 +24,9 @@ function Navbar() {
                 About Me
               </a>
             </li>
-            <li class="btn btn-primary ">
+            <li id = "contact-me-button" class="btn btn-primary ">
               <a class="nav-link " href="mailto:dav4thevid@gmail.com">
-                Contact Me
+                <span>Contact Me</span>
               </a>
             </li>
           </ul>
