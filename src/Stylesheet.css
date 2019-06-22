@@ -11,7 +11,6 @@ nav {
   right: 0;
   height: 50px;
   padding-top: 15px;
-  
   width: 100%;
   z-index: 100;
 }
@@ -95,9 +94,7 @@ nav {
 }
 
 .btn {
- 
   font-family: "Righteous", cursive;
-  
 }
 
 .btn-white {
@@ -192,9 +189,7 @@ div .thumbnail img {
   
   .navbar-brand {
     margin-left: 6%;
-  }
-
-  
+  } 
 }
 
 @media only screen and (min-width: 1000px) {
@@ -361,7 +356,6 @@ a img {
 }
 
 .about-me-heading{
- 
   margin-left:auto;
   margin-right:auto;
   color:white;
@@ -372,7 +366,6 @@ a img {
 
 .about-me-p{
   color:rgb(230, 230, 230);
-  
   margin-left:auto;
   margin-right:auto;
   font-size:1.3em;
@@ -389,16 +382,12 @@ a img {
 }
 
 .footer-header{
-  
-  color:rgb(143, 143, 143);;
+  color:rgb(143, 143, 143);
   font-size:0.9em;
   margin-left:auto;
   margin-right:auto;
   font-family: "Lobster", cursive;
- 
   text-align:center;
- 
-
 }
 
 .footer-p{
@@ -418,4 +407,3 @@ a img {
   font-family: "Righteous", cursive;
   margin-right:13px;
 }
-
